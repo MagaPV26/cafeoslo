@@ -1,0 +1,335 @@
+body {
+    font-family: 'Open Sans' , sans-serif;
+    line-height: 1;
+
+}
+
+
+h1 {
+    font-size: 44px;
+    font-weight: 000;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 000;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 000;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.cabecera{
+    background-image: url("../IMAGES/fondo2.jpg");
+    background-size: cover;
+    background-position: cover;
+    width: 100%;
+    overflow: hidden;
+    max-height: 700px;
+    color: #f5f0ed;
+    line-height: 1.5;
+}
+
+.barra{
+    display:flex;
+    justify-content: space-between;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+}
+ul li{
+    padding: 4px;
+    color: #f5f0ed;
+    margin-top:15px;
+}
+
+ul li a:hover{
+    font-style: inherit;
+    border-radius: 20%;
+}
+
+ul li a{
+    color: #f5f0ed;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+
+
+.publicidad {
+    display: flex;
+    justify-content: space-around;
+}
+
+.publicidad .izquierda{
+    background-color: #d03b40;
+    color: #ded6c0;
+    width:50%;
+}
+
+.publicidad .derecha{
+    background-color: #ded6c0;
+    color: #d03b40;
+    width:50%;
+}
+
+.txt-encolumnados {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding:60px;
+}
+
+.txt-encolumnados h2{
+    text-align: center;
+}
+
+.txt-encolumnados p{
+    margin-top:50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.desayunos {
+    width: 100%;
+    min-height: 500px;
+    background-image: url("..IMAGES/fondo2.jpg");
+    color: #f5f0ed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    line-height: 1.5px;
+    overflow: hidden;
+}
+
+.texto-desayuno {
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 40px;
+
+}
+
+
+.texto-desayunos-explicacion {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    bottom: 50px;
+}
+
+.btn {
+    display: flex;
+    font-size: 70px ;
+    margin-bottom: -50px;
+}
+
+.texto-desayuno .btn {
+    box-shadow: 3px 5px rgba(0, 0, 0, 0.119);
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.recien {
+    justify-items: center;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto1 {
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    font-display: flex;
+    justify-items: center;
+    text-size-adjust: 20px;
+}
+
+.indice {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.line {
+    margin-top: -60px;
+    display: flex;
+    justify-content: center;
+}
+
+.txt-encolumnados h3 {
+    text-align: center;
+}
+
+.txt-encolumnados {
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.mail {
+    color: #ffffff;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+}
+
+.productos {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: -70px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.productos .lineas {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20%;
+}
+
+.productos.lineas img {
+    width: 200px;
+    height: 200px;
+}
+
+.productos.lineas p{
+    margin: 200px;
+    text-align: center;
+}
+
+.productos h3, .productos p {
+    margin: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+    color: #ded6c0;
+    width: auto;
+    height: 100px;
+}
+
+footer p {
+    text-align: center;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+redes ul li {
+    padding: 20px;
+    list-style-type: none;
+}
+
+.redes u {
+    text-decoration: none;
+}
+
+
+/*texto footer*/
+
+.footer .texto-footer {
+    padding: 10px;
+}
+
+#Facebook-logo {
+    background: url("../IMAGES/img/facebook-blanco.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 20px;
+
+}
+#Instagram-logo {
+    background: url("../IMAGES/img/instagram-blanco.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 20px;
+}
+
+#WhatsApp-logo {
+    background: url("../IMAGES/img/whatsapp-blanco.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    padding: 20px;
+}
+
+/*MAPS*/
+
+.maps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+}
+
+/*Video de fondo código*/
+
+video {
+    width: 100%;
+}
+
+.absolute {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
