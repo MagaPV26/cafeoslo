@@ -41,7 +41,8 @@ p {
     overflow: hidden;
     max-height: 700px;
     color: #f5f0ed;
-    line-height: 1.5;
+  
+    height: 600px;
 }
 
 .barra{
@@ -97,6 +98,7 @@ ul li a{
     justify-content: center;
     align-content: center;
     padding:60px;
+    height: 500px;
 }
 
 .txt-encolumnados h2{
@@ -314,6 +316,7 @@ redes ul li {
     justify-content: center;
     align-items: center;
     margin-left: 80px;
+    border-radius: 10px;
 }
 
 /*Video de fondo código*/
@@ -333,3 +336,10 @@ video {
     justify-content: center;
 }
 
+
+/*desayunoo*/
+
+.texto-desayuno-explicacion {
+    margin: 40px;
+    bottom: 50px;
+}
